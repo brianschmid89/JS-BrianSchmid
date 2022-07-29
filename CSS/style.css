@@ -1,0 +1,10 @@
+body{
+    background-color: yellow;
+}
+.tituloHTML{
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
