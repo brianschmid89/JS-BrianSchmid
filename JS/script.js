@@ -86,7 +86,7 @@ const amigos = [
 //UTILICE EL METODO REDUCE
 
 let gastoTotal = amigos.reduce(
-	(total, persona) => total + elemento.consumoIndividual, 0)
+	(total, persona) => total + persona.consumoIndividual, 0)
 console.log("El total a pagar es: $"+ gastoTotal)
 
 
